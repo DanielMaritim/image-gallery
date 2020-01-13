@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery-highlight {
+    width: 85%;
+    height: 100%;
+}
+section {
+    display: flex;
+    height: 100vh;
+}
+.menu-gallery {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rosybrown;
+}
+.food-preview {
+    display: flex;
+    width: 30%;
+    border:2px solid rosybrown;
+}
+.food-preview img {
+    height: 100%;
+    flex-grow: 1;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+img.food-active {
+    opacity: 1;
+}
